@@ -41,19 +41,8 @@ nav a {
  	padding-bottom: 2px;
 }
 
-
-
-.leftBar {
-	width: 20%;
-	position: relative;
-}
-
 iframe {
 	width: 99.8%;
-	height: 550px;
-
+	height: 700px;
 }
 
-.mapContent {
-	width: 100%;
-}
