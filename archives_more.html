@@ -5,15 +5,27 @@
 	<link rel="stylesheet" type="text/css" href="css/archives_more.css">
 </head>
 <body>
-	<ul>
-		<li>Uganda</li>
-		<ul>
-			<li>Busia</li>
-			<ul>
-				<li>Boreholes</li>
-				<li>Soils</li>
-			</ul>
-		</ul>
-	</ul>
+	<div id="mySidenav" class="sidenav" class="dropdown">
+	  <button onclick="myFunction()" class="dropbtn">Uganda</button>
+	  <div id="myDropdown" class="dropdown-content">
+	    <a href="#">Busia</a>
+	  </div>
+	</div>
+
+	<div class="main">
+		<h2>Water</h2>
+		<a href="">CSV</a> <br>
+		<a href="">GeoJSON</a>  <br>
+		<a href="">Shapefiles</a>  <br>
+		
+		<h2>Soils</h2>
+		<a href="">CSV</a> <br>
+		<a href="">GeoJSON</a>  <br>
+		<a href="">Shapefiles</a>  <br>
+
+	</div>
+
+	<script src="js/archives_more.js"></script>
 </body>
 </html>
+

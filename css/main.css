@@ -11,8 +11,13 @@ body {
 	margin: 1em;
 }
 
+.logo {
+	padding: 0em;
+	margin-left: 5em;
+}
+
 .logoNav {
-	margin-left: 35em;
+	margin-left: 30em;
 	color: white;
 }
 
